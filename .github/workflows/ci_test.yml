@@ -31,3 +31,7 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm run test
+      - name: Run lib tests
+        run: npm run test:lib
+      - name: Run e2e tests
+        run: npm run e2e
