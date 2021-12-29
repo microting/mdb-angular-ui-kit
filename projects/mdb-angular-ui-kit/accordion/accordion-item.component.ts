@@ -20,6 +20,7 @@ let uniqueHeaderId = 0;
 let uniqueId = 0;
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-accordion-item',
   templateUrl: './accordion-item.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

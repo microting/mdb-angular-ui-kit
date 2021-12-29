@@ -16,6 +16,7 @@ import { MDB_TAB_CONTENT } from './tab-content.directive';
 import { MDB_TAB_TITLE } from './tab-title.directive';
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-tab',
   templateUrl: './tab.component.html',
 })

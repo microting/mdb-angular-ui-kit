@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input } from '@a
 import { trigger, style, animate, transition, state, AnimationEvent } from '@angular/animations';
 import { Subject } from 'rxjs';
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-tooltip',
   templateUrl: 'tooltip.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

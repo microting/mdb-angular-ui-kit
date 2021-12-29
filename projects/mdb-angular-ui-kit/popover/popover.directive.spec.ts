@@ -166,6 +166,7 @@ describe('MDB Popover', () => {
 });
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-test-tooltip',
   template: ` <button
     [trigger]="testTrigger"
@@ -187,6 +188,7 @@ class TestPopoverComponent {
 }
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-test-popover2',
   template: ` <button mdbPopover="testMdbPopover" trigger="click">MDB Button</button>`,
 })
@@ -194,6 +196,7 @@ class TestPopoverComponent {
 class TestPopoverComponent2 {}
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-test-popover2',
   template: ` <button mdbPopover="testMdbPopover" popoverDisabled="true" trigger="click">
     MDB Button

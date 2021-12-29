@@ -64,6 +64,7 @@ const basicTemplate = `
 `;
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-radio-group-test',
   template: basicTemplate,
 })

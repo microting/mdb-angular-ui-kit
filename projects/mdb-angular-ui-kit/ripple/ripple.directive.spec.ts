@@ -17,6 +17,7 @@ const template = `
 `;
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-ripple-test',
   template,
 })

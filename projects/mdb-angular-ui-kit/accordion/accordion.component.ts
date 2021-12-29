@@ -13,6 +13,7 @@ import { MdbAccordionItemComponent } from './accordion-item.component';
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-accordion',
   templateUrl: './accordion.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

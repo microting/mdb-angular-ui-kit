@@ -20,6 +20,7 @@ import { filter, takeUntil } from 'rxjs/operators';
 import { DOCUMENT } from '@angular/common';
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-modal-container',
   templateUrl: 'modal-container.component.html',
   changeDetection: ChangeDetectionStrategy.Default,

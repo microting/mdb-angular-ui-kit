@@ -13,6 +13,7 @@ import { takeUntil } from 'rxjs/operators';
 let defaultIdNumber = 0;
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-error',
   template: '<ng-content></ng-content>',
 })

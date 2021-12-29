@@ -20,6 +20,7 @@ export class MdbTabChange {
 }
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-tabs',
   templateUrl: './tabs.component.html',
 })

@@ -31,7 +31,7 @@ const mdbModules = [
   { name: 'MdbValidationModule', path: 'mdb-angular-ui-kit/validation'},
 ];
 
-// tslint:disable-next-line: space-before-function-paren
+// eslint-disable-next-line space-before-function-paren
 export default function (options: Schema): any {
   return async (tree: Tree) => {
     const workspace: any = await getWorkspace(tree);

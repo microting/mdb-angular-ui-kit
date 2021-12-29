@@ -8,6 +8,7 @@ import {
 import { trigger, style, animate, transition, state, AnimationEvent } from '@angular/animations';
 import { Subject } from 'rxjs';
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-popover',
   templateUrl: 'popover.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

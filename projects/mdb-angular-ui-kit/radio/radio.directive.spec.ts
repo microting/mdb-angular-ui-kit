@@ -61,6 +61,7 @@ const basicTemplate = `
 `;
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-radio-test',
   template: basicTemplate,
 })

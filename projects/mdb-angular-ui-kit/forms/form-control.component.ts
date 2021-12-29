@@ -17,6 +17,7 @@ import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-form-control',
   templateUrl: './form-control.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

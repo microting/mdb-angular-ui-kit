@@ -70,6 +70,7 @@ const basicTemplate = `
 `;
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-checkbox-test',
   template: basicTemplate,
 })

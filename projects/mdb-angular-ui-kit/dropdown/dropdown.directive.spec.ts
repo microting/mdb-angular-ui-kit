@@ -153,6 +153,7 @@ describe('MDB Dropdown', () => {
 });
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-dropdown-test',
   template: `
     <div mdbDropdown class="dropdown" [ngClass]="positionClass">

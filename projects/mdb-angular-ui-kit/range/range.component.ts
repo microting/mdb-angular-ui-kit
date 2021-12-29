@@ -21,6 +21,7 @@ export const RANGE_VALUE_ACCESOR: any = {
   multi: true,
 };
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-range',
   templateUrl: 'range.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

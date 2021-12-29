@@ -44,6 +44,7 @@ const template = `
 `;
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-accordion-test',
   template,
 })

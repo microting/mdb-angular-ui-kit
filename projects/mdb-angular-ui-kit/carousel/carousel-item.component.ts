@@ -1,6 +1,7 @@
 import { Component, ElementRef, HostBinding, Input } from '@angular/core';
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'mdb-carousel-item',
   template: '<ng-content></ng-content>',
 })
