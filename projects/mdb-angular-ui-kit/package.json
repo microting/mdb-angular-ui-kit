@@ -1,9 +1,9 @@
 {
-  "name": "mdb-angular-ui-kit",
-  "repository": "https://github.com/mdbootstrap/mdb-angular-ui-kit",
+  "name": "@microting/mdb-angular-ui-kit",
+  "repository": "https://github.com/microting/mdb-angular-ui-kit",
   "author": "MDBootstrap",
   "license": "MIT",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "peerDependencies": {
     "@angular/common": "^12.0.0",
     "@angular/core": "^12.0.0",
