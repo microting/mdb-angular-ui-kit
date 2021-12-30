@@ -10,7 +10,6 @@ import {
 import { MdbScrollspyService } from './scrollspy.service';
 
 @Directive({
-  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[mdbScrollspyElement]',
 })
 // eslint-disable-next-line @angular-eslint/directive-class-suffix

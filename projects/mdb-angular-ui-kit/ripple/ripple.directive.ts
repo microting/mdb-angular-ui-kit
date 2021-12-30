@@ -18,7 +18,6 @@ const BOOTSTRAP_COLORS = [
 ];
 
 @Directive({
-  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[mdbRipple]',
   exportAs: 'mdbRipple',
 })

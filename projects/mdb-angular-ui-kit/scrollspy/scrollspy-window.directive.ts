@@ -12,7 +12,6 @@ import { DOCUMENT } from '@angular/common';
 import { MdbScrollspyService } from './scrollspy.service';
 
 @Directive({
-  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[mdbScrollspyWindow]',
 })
 export class MdbScrollspyWindowDirective implements OnInit, AfterViewInit {

@@ -4,7 +4,7 @@ import { MdbAccordionComponent } from './accordion.component';
 import { MdbAccordionItemComponent } from './accordion-item.component';
 import { MdbAccordionItemHeaderDirective } from './accordion-item-header.directive';
 import { MdbAccordionItemBodyDirective } from './accordion-item-content.directive';
-import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
+import {MdbCollapseModule} from 'mdb-angular-ui-kit/collapse';
 
 @NgModule({
   declarations: [

@@ -15,7 +15,6 @@ import { Subject } from 'rxjs';
 import { MdbAbstractFormControl } from './form-control';
 
 @Directive({
-  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[mdbInput]',
   exportAs: 'mdbInput',
   providers: [{ provide: MdbAbstractFormControl, useExisting: MdbInputDirective }],

@@ -23,7 +23,6 @@ import { fromEvent, Subject } from 'rxjs';
 import { first, takeUntil } from 'rxjs/operators';
 
 @Directive({
-  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[mdbTooltip]',
   exportAs: 'mdbTooltip',
 })

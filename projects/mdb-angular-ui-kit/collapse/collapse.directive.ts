@@ -13,11 +13,9 @@ import { take } from 'rxjs/operators';
 const TRANSITION_TIME = 350;
 
 @Directive({
-  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[mdbCollapse]',
   exportAs: 'mdbCollapse',
 })
-// eslint-disable-next-line @angular-eslint/component-class-suffix
 export class MdbCollapseDirective {
   constructor(private _elementRef: ElementRef, private _renderer: Renderer2) {}
 

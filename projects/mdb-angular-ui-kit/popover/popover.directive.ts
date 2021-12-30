@@ -24,7 +24,6 @@ import { first, takeUntil } from 'rxjs/operators';
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
 
 @Directive({
-  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[mdbPopover]',
   exportAs: 'mdbPopover',
 })

@@ -20,7 +20,6 @@ export const MDB_RADIO_GROUP_VALUE_ACCESSOR: any = {
 };
 
 @Directive({
-  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[mdbRadioGroup]',
   providers: [MDB_RADIO_GROUP_VALUE_ACCESSOR],
 })
