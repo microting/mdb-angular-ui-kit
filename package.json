@@ -1,6 +1,6 @@
 {
-  "name": "@microting/mdb-angular-ui-kit-free",
-  "version": "1.6.0",
+  "name": "mdb-angular-ui-kit-free",
+  "version": "1.6.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
